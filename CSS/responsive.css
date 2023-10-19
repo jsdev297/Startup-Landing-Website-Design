@@ -1,0 +1,43 @@
+@media only screen and (max-width: 991px) {
+    .container {
+        max-width: 75%;
+    }
+
+    .res-burder {
+        display: block;
+    }
+
+    div#navMenu {
+        position: absolute;
+        top: 15%;
+        background: white;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: .5s;
+        opacity: 0;
+    }
+
+    div#navMenu.active {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    a.nav-item {
+        display: block;
+        width: 85vw;
+        padding: 15px 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 68%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 90%;
+
+    }
+}
