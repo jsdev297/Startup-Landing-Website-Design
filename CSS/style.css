@@ -56,6 +56,7 @@ header.page-header {
     height: 2px;
     background: gray;
     margin: 6px 0;
+    transition: .3s;
 }
 
 div#responsive-btn {
@@ -66,4 +67,17 @@ div#responsive-btn {
 .res-burder {
     cursor: pointer;
     margin-left: 10px;
+    display: none;
+}
+
+.res-burder.active .line:nth-child(2) {
+    display: none;
+}
+
+.res-burder.active .line.line1 {
+    transform: rotate(45deg);
+}
+
+.res-burder.active .line.line3 {
+    transform: translate(0px, -8px) rotate(-45deg);
 }
