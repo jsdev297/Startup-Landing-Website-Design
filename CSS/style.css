@@ -50,3 +50,20 @@ a.get-a-quote-btn:hover {
 header.page-header {
     box-shadow: 0px -2px 4px 0px;
 }
+
+.line {
+    width: 25px;
+    height: 2px;
+    background: gray;
+    margin: 6px 0;
+}
+
+div#responsive-btns {
+    display: flex;
+    align-items: center;
+}
+
+.res-burder {
+    cursor: pointer;
+    margin-left: 10px;
+}
