@@ -1,4 +1,7 @@
+/* Work Sans */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +11,13 @@
 
 
 body {
-    overflow-x: hidden;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6a7695;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -28,7 +37,7 @@ nav.navbar {
     text-decoration: none;
     padding: 22px 17px;
     display: inline-block;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif !important;
     color: black;
     font-weight: 500;
     transition: color .3s;
@@ -84,4 +93,56 @@ div#responsive-btn {
 
 .res-burder.active .line.line3 {
     transform: translate(0px, -8px) rotate(-45deg);
+}
+
+a.commonBtn {
+    background: #2550de;
+    padding: 16px 27px;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+a.commonBtn:hover {
+    background: #0B2238;
+}
+
+p.hero-sub-heading {
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+}
+
+h1.hero-heading {
+    font-size: 46px;
+    line-height: 55px;
+    color: #0B2238;
+    margin: 15px 0 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.hero_row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding-top: 139px;
+    padding-bottom: 142px;
+}
+
+p.hero-content {
+    margin-bottom: 30px;
+}
+
+img.heroImage {
+    width: 100%;
+}
+
+section.home_hero {
+    background: #f9fafa;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }

@@ -9,7 +9,7 @@
 
     div#navMenu {
         position: absolute;
-        top: 15%;
+        top: 10%;
         background: white;
         transform: scaleY(0);
         transform-origin: top;
