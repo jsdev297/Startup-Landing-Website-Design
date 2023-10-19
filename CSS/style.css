@@ -146,3 +146,79 @@ section.home_hero {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
 }
+
+h1.midHeading {
+    color: #0B2238;
+    font-size: 36px;
+    /* margin: 10px 0; */
+    line-height: 44px;
+}
+
+button.watchVideoBtn {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    background: none;
+}
+
+button.watchVideoBtn svg {
+    font-size: 29px;
+    background: #007bff;
+    padding: 8px 11px 8px 13px;
+    border-radius: 50%;
+    color: white;
+    transition: .4s;
+}
+
+button.watchVideoBtn span {
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(12 12 12 / 92%);
+    transition: .4s;
+}
+
+button.watchVideoBtn:hover span {
+    color: #484646;
+}
+
+
+button.watchVideoBtn:hover svg {
+    opacity: .8;
+}
+
+.serviceRow {
+    display: grid;
+    grid-template-columns: 45% auto;
+    align-items: center;
+    grid-column-gap: 48px;
+}
+
+.services_sub_row {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 34px;
+    grid-column-gap: 33px;
+}
+
+.single_service svg {
+    font-size: 40px;
+    color: #007bff;
+}
+
+h1.s_service_heading {
+    color: #0B2238;
+    font-size: 20px;
+    margin: 14px 0;
+}
+
+h1.midHeading.serviceContentHeading {
+    margin: 16px 0;
+}
+
+section.service {
+    padding: 91px 0;
+}
