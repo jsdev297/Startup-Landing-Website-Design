@@ -23,6 +23,7 @@ body {
 .container {
     width: 1110px;
     margin: auto;
+    max-width: 95%;
 }
 
 nav.navbar {
