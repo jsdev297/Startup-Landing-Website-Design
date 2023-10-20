@@ -1,4 +1,4 @@
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     .container {
         max-width: 75%;
     }
@@ -9,7 +9,7 @@
 
     div#navMenu {
         position: absolute;
-        top: 10%;
+        top: 6%;
         background: white;
         transform: scaleY(0);
         transform-origin: top;
@@ -37,6 +37,14 @@
     p.hero-content {
         margin-bottom: 11px;
     }
+
+    .serviceRow {
+        display: block;
+    }
+
+    .serviceContent {
+        padding-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -53,12 +61,32 @@
         display: none;
     }
 
+    h1.midHeading {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    button.watchVideoBtn {
+        margin: auto;
+        margin-top: 17px;
+    }
+
+    .serviceContent {
+        text-align: center;
+    }
+
+    .services_sub_row {
+        text-align: center;
+    }
 
 }
 
 @media screen and (max-width: 576px) {
     .container {
         max-width: 90%;
+    }
 
+    .services_sub_row {
+        grid-template-columns: auto;
     }
 }
