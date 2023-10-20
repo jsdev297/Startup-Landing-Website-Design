@@ -45,6 +45,18 @@
     .serviceContent {
         padding-bottom: 50px;
     }
+
+    .workStationSystem {
+        display: none;
+    }
+
+    .workSystemContentsWrapper {
+        max-width: 100%;
+    }
+
+    .workSystemContentsWrapper {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -88,6 +100,10 @@
     }
 
     .projects_description {
+        text-align: center;
+    }
+
+    .workSystemContentsWrapper {
         text-align: center;
     }
 
