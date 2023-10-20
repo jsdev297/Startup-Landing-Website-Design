@@ -265,3 +265,15 @@ section.home_projects {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
 }
+
+.page-header {
+    background: white;
+    width: 100%;
+    position: relative;
+    transition: 1s;
+}
+
+.page-header.sticky {
+    position: fixed;
+    top: 0;
+}
