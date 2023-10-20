@@ -9,7 +9,7 @@
 
     div#navMenu {
         position: absolute;
-        top: 6%;
+        top: 86px;
         background: white;
         transform: scaleY(0);
         transform-origin: top;
@@ -79,6 +79,18 @@
         text-align: center;
     }
 
+
+    .countDownRow {
+        grid-template-columns: auto auto;
+        grid-row-gap: 20px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .projects_description {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -89,4 +101,6 @@
     .services_sub_row {
         grid-template-columns: auto;
     }
+
+
 }
