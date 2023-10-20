@@ -14,13 +14,18 @@ h2 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
     text-transform: uppercase;
     color: #0B2238;
 }
 
 h3 {
     font-size: 12px;
+}
+
+h4 {
+    font-size: 16px;
 }
 
 body {
@@ -167,6 +172,7 @@ h1.midHeading {
     font-size: 36px;
     /* margin: 10px 0; */
     line-height: 44px;
+    font-weight: 600;
 }
 
 button.watchVideoBtn {
@@ -309,4 +315,74 @@ a.commonBtn.getStarted {
     left: -40px;
     width: 48%;
     object-fit: cover;
+}
+
+h1.midHeading.pricingHeading {
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.pricing_row {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 25px;
+    align-items: center;
+}
+
+section.pricing {
+    background: #f9fafa;
+    padding: 94px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pricing.pricingCard {
+    background: white;
+    padding: 56px 48px;
+    box-shadow: 0px 1px 20px 4px #e5e5e570;
+}
+
+p.plan_sub_heading {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ff3465;
+}
+
+span.price_type {
+    font-size: 11px;
+    color: #ff3465;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+h1.price {
+    font-size: 55px;
+    color: #0B2238;
+    padding: 7px 0;
+}
+
+
+h4.planType {
+    text-transform: none;
+}
+
+p.pricing_plan- svg {
+    color: #11c511;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+
+p.pricing_plan- {
+    padding-top: 16px;
+}
+
+.pricing_plans {
+    padding-top: 10px;
+}
+
+.pricingCards {
+    display: flex;
+    justify-content: space-between;
+    grid-column-gap: 37px;
 }

@@ -57,6 +57,15 @@
     .workSystemContentsWrapper {
         text-align: center;
     }
+
+    .pricing_row {
+        grid-template-columns: auto;
+    }
+
+    .pricing.pricing_side--contents {
+        padding-bottom: 43px;
+        max-width: 63%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -105,6 +114,19 @@
 
     .workSystemContentsWrapper {
         text-align: center;
+    }
+
+    .pricing.pricing_side--contents {
+        text-align: center;
+        max-width: unset;
+    }
+
+
+    .pricingCards {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        grid-row-gap: 34px;
     }
 
 }
