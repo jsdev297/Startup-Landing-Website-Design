@@ -66,6 +66,10 @@
         padding-bottom: 43px;
         max-width: 63%;
     }
+
+    .testimonialsRow {
+        grid-template-columns: auto auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -127,6 +131,10 @@
         grid-template-columns: auto;
         justify-content: center;
         grid-row-gap: 34px;
+    }
+
+    .testimonialsRow {
+        grid-template-columns: auto;
     }
 
 }

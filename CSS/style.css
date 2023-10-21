@@ -339,8 +339,9 @@ section.pricing {
 .pricing.pricingCard {
     background: white;
     padding: 56px 48px;
-    box-shadow: 0px 1px 20px 4px #e5e5e570;
+    box-shadow: 0px 1px 20px 16px #e5e5e570;
     height: fit-content;
+    border-radius: 14px;
 }
 
 p.plan_sub_heading {
@@ -387,4 +388,40 @@ p.pricing_plan- {
     justify-content: space-between;
     grid-column-gap: 37px;
     align-items: center;
+}
+
+.sectionUpperContent {
+    text-align: center;
+}
+
+section.testimonial {
+    padding: 146px 0;
+}
+
+.testimonialsRow {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 45px;
+    margin-top: 53px;
+    grid-row-gap: 20px;
+}
+
+.singleTestimonial {
+    text-align: center;
+}
+
+h1.personName {
+    color: #0B2238;
+    padding-top: 10px;
+}
+
+img.testiImage {
+    border-radius: 50%;
+    padding-top: 16px;
+}
+
+p.title {
+    color: #0B2238;
+    font-weight: 500;
+    margin-top: -3px;
 }
