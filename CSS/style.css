@@ -29,7 +29,7 @@ h4 {
 }
 
 body {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
     color: #6a7695;
     font-weight: 400;
@@ -424,4 +424,51 @@ p.title {
     color: #0B2238;
     font-weight: 500;
     margin-top: -3px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 35px;
+}
+
+footer.page-footer {
+    background: #212529;
+}
+
+.footerUpperSec {
+    padding: 72px 0;
+}
+
+p.footer_contents.brandContent {
+    color: white;
+}
+
+h4.footer_heading {
+    color: white;
+    text-transform: unset;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.companyLinks a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 6px;
+    transition: color .5s;
+}
+
+.companyLinks a:hover {
+    color: #007bff;
+}
+
+p.addressS {
+    color: white;
+    padding-bottom: 12px;
+}
+
+p.footer_contents {
+    color: white;
 }
