@@ -482,3 +482,26 @@ p.footerCopyrightContent {
     border-top: 1px solid #757575;
     padding: 37px 0;
 }
+
+input.subscribeInput {
+    background: transparent;
+    border: 1px solid #414141;
+    outline: none;
+    padding: 14px 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button.subscribeBtn {
+    padding: 15px 17px;
+    border: none;
+    color: white;
+    background: #007bff;
+    cursor: pointer;
+    margin-left: -4px;
+    border-top: 2px solid #007bff;
+}
+
+.subscribe {
+    margin-top: 13px;
+}
