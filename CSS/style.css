@@ -472,3 +472,13 @@ p.addressS {
 p.footer_contents {
     color: white;
 }
+
+p.footerCopyrightContent {
+    text-align: center;
+    color: white;
+}
+
+.footerDownSection {
+    border-top: 1px solid #757575;
+    padding: 37px 0;
+}
